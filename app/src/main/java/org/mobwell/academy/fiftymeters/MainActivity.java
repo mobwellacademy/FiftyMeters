@@ -13,6 +13,7 @@ import android.widget.Toast;
 import org.mobwell.academy.fiftymeters.accounts.RecoveryActivity;
 import org.mobwell.academy.fiftymeters.accounts.SignUpActivity;
 
+/*cenas*/
 
 public class MainActivity extends ActionBarActivity implements View.OnClickListener{
 
