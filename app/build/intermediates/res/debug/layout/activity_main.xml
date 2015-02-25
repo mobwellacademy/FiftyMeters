@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/am_text_welcome"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/am_text_username"
+        android:layout_gravity="center_horizontal"
+
+        android:layout_marginTop="70dp"/>
+
+    <EditText
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/am_edTxt_username"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/am_text_password"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/am_edTxt_password"
+        android:inputType="numberPassword"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/am_button_login"
+        android:id="@+id/am_button_login"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/am_text_forget"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="85dp"
+
+        android:clickable="true"
+        android:id= "@+id/am_button_forgotpw"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/am_text_register"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="85dp"
+
+        android:clickable="true"
+        android:id= "@+id/am_button_signup"/>
+
+</LinearLayout>
+<!-- From: file:/C:/Users/Plane/AndroidStudioProjects/FiftyMeters/app/src/main/res/layout/activity_main.xml -->
